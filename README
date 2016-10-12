@@ -1,5 +1,17 @@
 toggl-interruptions
 -------------------
 
-$ TOGGL_API_KEY=blah toggl-interruptions
+$ DEBUG=* TOGGL_API_KEY=blah toggl-interruptions
+toggl-interruption-stats User ID: 382795 +0ms
+toggl-interruption-stats Workspace ID: 294684 +210ms
+toggl-interruption-stats Found 17 time entries today +275ms
+toggl-interruption-stats You worked 8.23 hours today (494.09 minutes) +0ms
+toggl-interruption-stats You were billable 6.6 hours today (395.78 minutes) +0ms
+toggl-interruption-stats You were interrupted every 29.06 minutes +0ms
+toggl-interruption-stats Your longest stretch was 2.73 hours (164.02 minutes) +0ms
 
+Yeah, it spits out the data in 'debug'.  This was both a 'proof of concept' and
+"I need this report in 30 minutes or we're all dead" thing.
+
+I'll clean it up later and add options to output a nice-looking report for entire teams later.
+Maybe even Slack integration so it can be automatically posted to a channel or sent to individuals.
