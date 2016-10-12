@@ -1,6 +1,6 @@
 {
   "name": "@darkpixel/toggl-interruptions",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "Quickly display your daily context switches",
   "main": "index.js",
   "bin": {"toggl-interruptions": "./index.js"},
