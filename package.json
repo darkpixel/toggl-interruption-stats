@@ -1,0 +1,25 @@
+{
+  "name": "@darkpixel/toggl-interruptions",
+  "version": "0.5.1",
+  "description": "Quickly display your daily context switches",
+  "main": "index.js",
+  "bin": {"toggl-interruptions": "./index.js"},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darkpixel/toggl-interruptions.git"
+  },
+  "author": "Aaron C. de Bruyn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/darkpixel/toggl-interruptions/issues"
+  },
+  "homepage": "https://github.com/darkpixel/toggl-interruptions#readme",
+  "dependencies": {
+    "debug": "^2.2.0",
+    "moment": "^2.15.1",
+    "toggl-api": "^1.0.0"
+  }
+}
